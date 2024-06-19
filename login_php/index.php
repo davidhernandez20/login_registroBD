@@ -101,14 +101,14 @@
             <i class="fas fa-user icon"></i>
             <i class="fas fa-lock icon-right"></i>
             <h2 class="text-center mb-4">Iniciar Sesión</h2>
-            <form action="" method="post">
+            <form action="login_usuario_bd.php" method="post">
                 <div class="mb-3">
-                    <label for="username" class="form-label"><i class="fas fa-user"></i> Usuario/Correo</label>
-                    <input type="text" class="form-control pl-5" id="username" placeholder="Usuario">
+                    <label for="email" class="form-label"><i class="fas fa-user"></i> Usuario/Correo</label>
+                    <input type="text" class="form-control pl-5" id="email"  placeholder="Usuario" name="email">
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-label"><i class="fas fa-lock"></i> Contraseña</label>
-                    <input type="password" class="form-control pl-5" id="password" placeholder="Contraseña">
+                    <label for="contrasena" class="form-label"><i class="fas fa-lock"></i> Contraseña</label>
+                    <input type="password" class="form-control pl-5" id="contrasena"  placeholder="Contraseña" name="contrasena">
                 </div>
                 <div class="d-grid gap-2">
                     <button type="submit" class="btn btn-primary">Iniciar sesión <i class="fas fa-sign-in-alt"></i></button>
